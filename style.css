@@ -1,0 +1,51 @@
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Space-Wallpaper-Hd-Stars-Widescreen.jpg");
+    background-size: cover;
+    font-family:  'Montserrat', sans-serif;
+    color: #fbfdfb;
+    display: flex; 
+    justify-content: center;
+    
+    
+    
+    }
+#comienzo{
+    text-align: center;
+}
+ 
+#guess-button{
+    width:70px;
+    height:39px;
+    border-radius: 14px;
+    background-color: rgb(205, 205, 205); ;
+}
+#grid{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+#materia{
+    background-color: rgb(205, 205, 205);
+}
+
+#puntuaciones{
+    background-color: rgb(205, 205, 205);
+}

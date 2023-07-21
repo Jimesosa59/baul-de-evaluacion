@@ -1,9 +1,9 @@
 .entrada{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
+
 #contenedor {
     display: flex;
     flex-direction: row;
@@ -11,9 +11,10 @@
     text-align: center;
     justify-content: center;
     width: auto;
-    font-family:Georgia, 'Times New Roman', Times, serif
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px
 }
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
@@ -23,29 +24,59 @@ body{
     color: #fbfdfb;
     display: flex; 
     justify-content: center;
-    
-    
-    
     }
+
 #comienzo{
     text-align: center;
 }
  
 #guess-button{
-    width:70px;
-    height:39px;
-    border-radius: 14px;
-    background-color: rgb(205, 205, 205); ;
+    width:81px;
+    height:45px;
+    border-radius: 29px;
+    background-color: rgba(205, 205, 205, 0.667); ;
 }
 #grid{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    width: 64%;
+    margin: auto;
+    text-align: start;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     
 }
+
 #materia{
-    background-color: rgb(205, 205, 205);
+    background-color: rgba(211, 198, 198, 0.356);
 }
 
 #puntuaciones{
-    background-color: rgb(205, 205, 205);
+    background-color: rgba(211, 198, 198, 0.356);
 }
+
+.caja{
+    position:absolute;
+    inset:0;
+    width:80vw;
+    height:80vh;
+    margin:auto;
+    text-align:center;
+    background-color:rgba(0,0,0,.6);
+    
+}
+
+.row{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sticker{
+	background:url(https://opengameart.org/sites/default/files/chest2_0.png);
+    background-size: cover;
+    width: 275px;
+    height: 291px;
+    position: absolute;
+    top: 272px;
+    right: 71px;
+} 
